@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PruebaNewShore.Aplicacion
+namespace PruebaNewShore.Aplicacion.BuscarVuelos
 {
     public class PeticionBusquedaDeVuelos
     {

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PruebaNewShore.Aplicacion
+namespace PruebaNewShore.Aplicacion.BuscarVuelos
 {
     public class BuscadorDeVuelos
     {
