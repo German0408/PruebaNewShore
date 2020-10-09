@@ -7,7 +7,12 @@ namespace PruebaNewShore.Aplicacion.BuscarVuelos
 {
     public class BuscadorDeVuelos
     {
-        private IRepositorioDeVuelos repositorio;
+        private readonly IRepositorioDeVuelos repositorio;
+
+        public BuscadorDeVuelos(IRepositorioDeVuelos repositorio)
+        {
+            this.repositorio = repositorio;
+        }
 
         public RespuestaBusquedaDeVuelos Buscar(PeticionBusquedaDeVuelos peticion) {
 
