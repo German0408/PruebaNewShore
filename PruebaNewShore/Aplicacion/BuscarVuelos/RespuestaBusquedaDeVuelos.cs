@@ -1,7 +1,7 @@
 ﻿using PruebaNewShore.Dominio;
 using System.Collections.Generic;
 
-namespace PruebaNewShore.Aplicacion
+namespace PruebaNewShore.Aplicacion.BuscarVuelos
 {
     public class RespuestaBusquedaDeVuelos
     {

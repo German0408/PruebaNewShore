@@ -7,5 +7,7 @@ namespace PruebaNewShore.Dominio
     public class Transporte
     {
         public string NumeroDeVuelo { get; set; }
+
+        public List<Vuelo> Vuelos { get; set; }
     }
 }
